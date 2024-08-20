@@ -1,6 +1,6 @@
 {
   "name": "uabookstores/laravel-shibboleth",
-  "description": "Enable basic Shibboleth support for Laravel 5.x",
+  "description": "Enable basic Shibboleth support for Laravel 10.x",
   "authors": [
     {
       "name": "Christopher Maio",
@@ -24,10 +24,11 @@
     }
   ],
   "require": {
-    "illuminate/support": "5.* || ^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0 || ^11.0",
+    "php": "^8.1.18",
+    "illuminate/support": "^10.0 || ^11.0",
     "mrclay/shibalike": "1.0.0",
-    "laravel/framework": "^5.4 || ^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0 || ^11.0",
-    "php-open-source-saver/jwt-auth": "^1.4"
+    "laravel/framework": "^10.0 || ^11.0",
+    "php-open-source-saver/jwt-auth": "^2.7"
   },
   "autoload": {
     "psr-4": {
@@ -42,8 +43,7 @@
   },
   "minimum-stability": "stable",
   "require-dev": {
-    "phpunit/phpunit": "^6.0|^7.0|^8.0|^9.0|^10.0",
-    "orchestra/testbench": "^3.4|^4.0|^5.0"
+    "phpunit/phpunit": "^6.0|^7.0|^8.0|^9.0|^10.0"
   },
   "extra": {
     "laravel": {
